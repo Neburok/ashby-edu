@@ -1,0 +1,265 @@
+- id: carcasa-taladro
+  nombre: Carcasa de taladro eléctrico manual
+  sector: Herramientas / Manufactura
+  funcion: Proteger motor, aislar corriente, disipar calor, resistir impacto, ergonomía
+  proceso: Moldeo por inyección (plásticos) o fundición a presión (metales)
+  volumen: 100,000+ unidades/año
+  restricciones:
+    - Aislamiento eléctrico
+    - Resistencia a caídas (1.5 m)
+    - Costo < 2 USD
+    - Acabado estético
+  normas:
+    - NOM-003-SCFI (seguridad eléctrica)
+    - ASTM D256 (impacto Izod)
+  candidatos:
+    - ABS
+    - PC/ABS
+    - PP+GF
+    - Al/Zamak
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: sigma_y_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 50.0
+  es_rector: true
+
+- id: botella-bebida-carbonatada
+  nombre: Botella de bebida carbonatada
+  sector: Empaque / Alimentos y bebidas
+  funcion: Contener líquido carbonatado a presión, ligera, reciclable, inocua
+  proceso: Inyección-soplado (PET), soplado (vidrio), embutido profundo (aluminio)
+  volumen: Millones de unidades/año
+  restricciones:
+    - Presión interna (CO₂)
+    - Ligereza
+    - Costo ínfimo
+    - Reciclabilidad
+    - Contacto alimenticio
+  normas:
+    - NOM-186-SSA1 (contacto con alimentos)
+    - NMX-E-043-SCFI
+  candidatos:
+    - PET
+    - Vidrio
+    - Aluminio
+    - PLA (bioplástico)
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: sigma_UTS_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 20.0
+  es_rector: false
+
+- id: tarima-industrial-pallet
+  nombre: Tarima industrial (pallet)
+  sector: Logística / Almacenamiento
+  funcion: Soportar carga estática y dinámica, compatible con montacargas, apilable, reutilizable
+  proceso: Moldeo por inyección (plástico), ensamble mecánico (madera), perfilado (acero)
+  volumen: Lotes de 5,000–50,000 unidades
+  restricciones:
+    - Carga estática > 1,000 kg
+    - Resistencia a humedad
+    - Durabilidad
+    - Costo de retorno logístico
+  normas:
+    - ISO 8611 (ensayos de tarimas)
+    - NOM-006-SCFI (madera para embalaje)
+  candidatos:
+    - Madera de pino
+    - PP reciclado
+    - Acero estructural
+    - Composite madera-plástico (WPC)
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: sigma_y_MPa
+    index_line_slope: 0.5
+    index_line_intercept: 30.0
+  es_rector: false
+
+- id: tuberia-proceso-alimentos
+  nombre: Tubería para proceso (planta de alimentos)
+  sector: Alimentos / Químicos
+  funcion: Conducir fluidos de proceso, soportar presión y temperatura
+  proceso: Extrusión (plástico), laminación + soldadura (acero inox), trefilado (cobre)
+  volumen: Metros lineales, producción por lote
+  restricciones:
+    - Resistencia a corrosión
+    - Inocuidad alimenticia
+    - Rango de temperatura
+    - Presión de trabajo
+    - Limpieza CIP/SIP
+  normas:
+    - NSF/ANSI 51 (contacto alimenticio)
+    - ASTM A312 (tubo acero inox)
+  candidatos:
+    - Acero inox 304
+    - Acero inox 316L
+    - PEX
+    - CPVC
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: sigma_y_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 100.0
+  es_rector: false
+
+- id: engrane-transmision
+  nombre: Engrane de transmisión (reductor de velocidad)
+  sector: Manufactura / Maquinaria
+  funcion: Transmitir torque entre ejes, resistir desgaste superficial y fatiga por contacto
+  proceso: Forja + maquinado + tratamiento térmico (temple/revenido)
+  volumen: Lotes de 500–5,000 unidades
+  restricciones:
+    - Resistencia a fatiga
+    - Dureza superficial
+    - Maquinabilidad
+    - Templabilidad
+  normas:
+    - AGMA 2001 (engranes)
+    - ASTM A370 (ensayos mecánicos)
+  candidatos:
+    - AISI 4140
+    - AISI 1045
+    - Bronce SAE 64
+    - Nylon 6/6
+  ashby_config:
+    x_col: dureza_HB
+    y_col: sigma_UTS_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 5.0
+  es_rector: false
+
+- id: gabinete-electrico-nema4
+  nombre: Gabinete eléctrico industrial (NEMA 4)
+  sector: Electrónica industrial / Control
+  funcion: Proteger componentes eléctricos de polvo, agua, impacto; aislar; blindaje EM opcional
+  proceso: Corte + doblez + soldadura (metal), moldeo por inyección (plástico)
+  volumen: Lotes de 100–1,000 unidades
+  restricciones:
+    - Grado de protección IP66/NEMA 4
+    - Resistencia a impacto (IK)
+    - Aislante o conductor según diseño
+    - Costo competitivo
+  normas:
+    - NEMA 250
+    - IEC 60529 (protección IP)
+    - NOM-001-SEDE (instalaciones eléctricas)
+  candidatos:
+    - Acero al carbón pintado
+    - Aluminio
+    - ABS
+    - PRFV (poliéster reforzado con fibra de vidrio)
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: sigma_y_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 80.0
+  es_rector: false
+
+- id: contenedor-residuos-industriales
+  nombre: Contenedor de residuos industriales
+  sector: Planta industrial / Manejo de residuos
+  funcion: Contener residuos sólidos o líquidos, resistir químicos, manipulación ruda, apilable
+  proceso: Moldeo rotacional (PEAD), inyección (plástico), rolado + soldadura (acero)
+  volumen: Lotes de 500–2,000 unidades
+  restricciones:
+    - Resistencia química
+    - Resistencia UV (intemperie)
+    - Ligereza para manipulación
+    - Reciclabilidad
+  normas:
+    - NOM-052-SEMARNAT (residuos peligrosos)
+    - ASTM D638 (tracción plásticos)
+  candidatos:
+    - PEAD virgen
+    - PEAD reciclado
+    - Acero galvanizado
+    - Acero inoxidable 304
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: sigma_y_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 40.0
+  es_rector: false
+
+- id: rodillo-transportador
+  nombre: Rodillo transportador (línea de producción)
+  sector: Línea de producción / Manejo de materiales
+  funcion: Soportar y mover productos sobre banda transportadora, resistir desgaste por fricción y carga
+  proceso: Extrusión + maquinado (metal), moldeo (plástico)
+  volumen: Lotes de 200–1,000 unidades
+  restricciones:
+    - Bajo coeficiente de fricción
+    - Resistencia al desgaste
+    - Carga soportada
+    - Ruido
+    - Costo
+  normas:
+    - ISO 1537 (rodillos transportadores)
+    - ASTM G65 (desgaste abrasivo)
+  candidatos:
+    - Acero al carbón
+    - Aluminio 6061
+    - PVC
+    - Nylon 6
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: E_GPa
+    index_line_slope: 1.0
+    index_line_intercept: 30.0
+  es_rector: false
+
+- id: inserto-herramienta-corte
+  nombre: Inserto de herramienta de corte (torneado)
+  sector: Maquinado / Manufactura
+  funcion: Remover viruta de pieza metálica, resistir altas temperaturas y desgaste abrasivo
+  proceso: Sinterizado (metalurgia de polvos) + recubrimiento CVD/PVD
+  volumen: Producción en masa (piezas de consumo)
+  restricciones:
+    - Dureza en caliente
+    - Resistencia al desgaste
+    - Tenacidad
+    - Estabilidad química con material de pieza
+  normas:
+    - ISO 1832 (insertos de corte)
+    - ANSI B212
+  candidatos:
+    - Carburo de tungsteno (WC-Co)
+    - Acero rápido (HSS)
+    - Cerámico (Al₂O₃)
+    - CBN (nitruro de boro cúbico)
+  ashby_config:
+    x_col: dureza_HB
+    y_col: sigma_UTS_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 2.0
+  es_rector: false
+
+- id: carcasa-electrodomestico-licuadora
+  nombre: Carcasa de electrodoméstico (licuadora)
+  sector: Línea blanca / Electrodomésticos
+  funcion: Alojar motor vibrando, aislar corriente, resistir calor del motor, estética de cocina, limpieza fácil
+  proceso: Moldeo por inyección (plástico), estampado + esmaltado (acero)
+  volumen: 50,000+ unidades/año
+  restricciones:
+    - Aislamiento eléctrico
+    - Resistencia química a alimentos ácidos
+    - Resistencia a vibración
+    - Acabado decorativo
+    - Costo
+  normas:
+    - NOM-003-SCFI
+    - NSF/ANSI 51 (si toca alimentos)
+    - UL 982
+  candidatos:
+    - PP
+    - ABS
+    - Acero esmaltado
+    - Bioplástico (PLA/PHB)
+  ashby_config:
+    x_col: densidad_gcm3
+    y_col: sigma_y_MPa
+    index_line_slope: 1.0
+    index_line_intercept: 30.0
+  es_rector: false

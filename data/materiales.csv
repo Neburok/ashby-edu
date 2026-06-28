@@ -1,0 +1,7 @@
+material,familia,densidad_gcm3,tipo_enlace,estructura_cristalina,E_GPa,sigma_y_MPa,sigma_UTS_MPa,elongacion_pct,dureza_HB,dureza_HRC,k_WmK,alfa_1e-6C,T_fusion_C,T_max_servicio_C,resistencia_corrosion,maquinabilidad,soldabilidad,conformabilidad,colabilidad,templabilidad,costo_USD_kg,disponibilidad,formas_suministro,energia_embebida_MJkg,huella_CO2_kgCO2kg,reciclabilidad,normas_aplicables,notas_fuente
+Aluminio 1100,metal_no_ferroso,2.70,metalico,FCC,69,95,110,35,23,,222,23.6,660,200,4,5,4,5,3,1,2.5,3,barra/lamina,200,11,5,ASTM B209,Callister apéndice
+Hierro puro (Fe α),metal_ferroso,7.87,metalico,BCC,211,130,200,45,40,,80,11.7,1538,400,2,3,3,4,4,3,1.0,3,barra,25000,2.0,5,ASTM A36,Callister apéndice
+Cobre electrolítico,metal_no_ferroso,8.96,metalico,FCC,128,70,220,45,35,,393,16.5,1085,150,4,4,4,4,3,1,8.0,3,barra/tubo,135,4.5,5,ASTM B152,Callister apéndice
+Titanio Ti-6Al-4V,metal_no_ferroso,4.43,metalico,HCP+BCC,114,880,950,14,330,35,6.7,8.6,1660,400,5,3,3,3,4,5,25.0,2,barra/forja,360,8.2,5,ASTM B348,MatWeb
+Magnesio AZ31,metal_no_ferroso,1.77,metalico,HCP,45,150,255,15,40,,100,26.0,650,200,3,5,3,4,4,1,4.0,2,barra/lamina,350,9.0,4,ASTM B90,MatWeb
+Plomo,metal_no_ferroso,11.34,metalico,FCC,16,9,18,50,4,,34.8,29.0,327,100,4,5,4,4,5,1,2.5,3,barra/lingote,30,1.5,5,ASTM B29,Callister apéndice

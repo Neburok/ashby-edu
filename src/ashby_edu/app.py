@@ -156,6 +156,34 @@ with tab1:
             hide_index=True,
         )
 
+    # ── Exportar ──
+    st.subheader("Exportar")
+    col_exp1, col_exp2 = st.columns(2)
+
+    with col_exp1:
+        try:
+            png_bytes = fig.to_image(format="png", scale=2)
+            st.download_button(
+                label="📥 Descargar gráfica (PNG)",
+                data=png_bytes,
+                file_name="carta_ashby.png",
+                mime="image/png",
+            )
+        except Exception:
+            st.info("Instala kaleido para exportar PNG: pip install kaleido")
+
+    with col_exp2:
+        if df_candidates is not None and not df_candidates.empty:
+            csv_data = df_candidates.to_csv(index=False).encode("utf-8")
+            st.download_button(
+                label="📊 Descargar candidatos (CSV)",
+                data=csv_data,
+                file_name="materiales_seleccionados.csv",
+                mime="text/csv",
+            )
+        else:
+            st.caption("Selecciona candidatos para exportar CSV")
+
 
 # ── Tab 2: Casos Industriales (modo guiado) ────────────────────────────────
 with tab2:

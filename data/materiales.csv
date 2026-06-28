@@ -5,3 +5,40 @@ Cobre electrolítico,metal_no_ferroso,8.96,metalico,FCC,128,70,220,45,35,,393,16
 Titanio Ti-6Al-4V,metal_no_ferroso,4.43,metalico,HCP+BCC,114,880,950,14,330,35,6.7,8.6,1660,400,5,3,3,3,4,5,25.0,2,barra/forja,360,8.2,5,ASTM B348,MatWeb
 Magnesio AZ31,metal_no_ferroso,1.77,metalico,HCP,45,150,255,15,40,,100,26.0,650,200,3,5,3,4,4,1,4.0,2,barra/lamina,350,9.0,4,ASTM B90,MatWeb
 Plomo,metal_no_ferroso,11.34,metalico,FCC,16,9,18,50,4,,34.8,29.0,327,100,4,5,4,4,5,1,2.5,3,barra/lingote,30,1.5,5,ASTM B29,Callister apéndice
+Acero A36,metal_ferroso,7.85,metalico,BCC,200,250,400,23,119,,51.9,11.7,1427,400,2,3,5,4,3,2,0.8,3,lamina/barra/perfil,25,1.8,5,ASTM A36,MatWeb
+AISI 1045,metal_ferroso,7.85,metalico,BCC,200,370,625,16,170,,51.9,11.7,1427,400,1,4,3,3,3,4,1.0,3,barra/forja,28,2.0,5,ASTM A108,MatWeb
+AISI 4140,metal_ferroso,7.85,metalico,BCC,200,655,745,13,207,15,42.6,12.3,1427,500,2,3,3,3,3,5,2.5,3,barra/forja,30,2.1,5,ASTM A322,MatWeb
+AISI 4340,metal_ferroso,7.85,metalico,BCC,200,710,745,13,285,30,44.5,12.3,1427,500,2,3,3,3,3,5,3.0,2,barra/forja,32,2.2,5,ASTM A322,MatWeb
+Acero inox 304,metal_ferroso,8.00,metalico,FCC,193,215,505,70,146,,16.2,17.3,1400,800,5,2,4,4,4,3,4.0,3,lamina/barra/tubo,55,5.0,5,ASTM A240,MatWeb
+Acero inox 316L,metal_ferroso,8.00,metalico,FCC,193,290,580,50,149,,16.2,15.9,1390,800,5,2,5,4,4,3,5.0,3,lamina/barra/tubo,57,5.2,5,ASTM A240,MatWeb
+Acero galvanizado,metal_ferroso,7.85,metalico,BCC,200,250,400,20,120,,51.9,11.7,1427,300,4,3,3,4,3,2,1.2,3,lamina/perfil,27,2.0,4,ASTM A653,MatWeb
+Hierro fundido gris,metal_ferroso,7.15,metalico,grafito_laminar,138,,276,0.5,187,,48,11.4,1150,400,3,4,2,2,5,1,1.0,3,fundicion,23,1.7,5,ASTM A48,Callister apéndice
+Al 6061-T6,metal_no_ferroso,2.70,metalico,FCC,69,276,310,17,95,,167,23.6,588,200,4,4,5,5,4,3,2.5,3,barra/lamina/perfil,200,11,5,ASTM B209,MatWeb
+Al 7075-T6,metal_no_ferroso,2.81,metalico,FCC,71.7,503,572,11,150,,130,23.6,635,200,3,4,2,3,3,3,3.5,2,barra/forja,210,12,5,ASTM B209,MatWeb
+Latón 60/40,metal_no_ferroso,8.39,metalico,FCC,97,200,410,25,105,,118,20.0,920,200,4,5,3,5,4,1,7.0,3,barra/lamina,62,3.5,5,ASTM B36,Callister apéndice
+Zamak 3,metal_no_ferroso,6.60,metalico,HCP,86,,282,10,82,,113,27.0,387,100,2,4,1,2,5,1,2.5,2,fundicion_inyectada,80,4.5,5,ASTM B86,MatWeb
+Níquel 200,metal_no_ferroso,8.89,metalico,FCC,207,148,462,47,120,,90.9,13.9,1446,600,5,3,4,4,4,2,15.0,2,barra/lamina,160,9.0,5,ASTM B160,MatWeb
+Alúmina Al2O3,ceramico,3.90,ionico,hexagonal,380,,280,0.0,,,30,8.1,2072,1500,5,1,1,1,2,1,3.5,2,polvo/sinterizado,55,2.5,2,ASTM F603,NIST
+Zirconia ZrO2,ceramico,6.05,ionico,monoclinica,205,,500,0.0,,,2.2,10.5,2715,1500,5,1,1,1,2,1,50.0,1,polvo/sinterizado,60,3.0,2,ASTM F1873,MatWeb
+Carburo de silicio SiC,ceramico,3.21,covalente,hexagonal,410,,700,0.0,,,120,4.0,2730,1500,5,1,1,1,1,1,20.0,2,polvo/sinterizado,70,3.5,2,ASTM C774,MatWeb
+Carburo de tungsteno WC,ceramico,15.63,covalente,hexagonal,614,,350,0.0,,,110,5.2,2870,1000,4,1,1,1,2,1,60.0,1,sinterizado,80,4.0,3,ASTM B779,MatWeb
+Vidrio sodocálcico,ceramico,2.52,ionico,amorfo,70,,50,0.1,,,1.05,9.0,700,400,4,1,1,2,1,1,1.0,3,lamina/tubo,15,0.9,4,ASTM C1036,Callister apéndice
+PEAD,polimero,0.953,covalente,semicristalina,1.08,26,30,900,,,0.49,150,130,80,5,4,3,5,3,1,1.5,3,lamina/tubo/perfil,80,1.9,4,ASTM D4976,MatWeb
+PET,polimero,1.38,covalente,semicristalina,2.76,55,60,60,,,0.24,65,255,120,4,3,1,5,2,1,1.5,3,lamina/fibra/botella,85,2.3,4,ASTM D7201,MatWeb
+PP,polimero,0.905,covalente,semicristalina,1.55,35,40,400,,,0.22,150,165,100,4,4,2,5,3,1,1.5,3,lamina/fibra,75,1.7,4,ASTM D4101,MatWeb
+PVC rígido,polimero,1.40,covalente,amorfa,3.0,45,50,60,,,0.19,80,180,80,4,4,2,4,2,1,1.5,3,lamina/tubo/perfil,70,2.4,3,ASTM D1784,MatWeb
+ABS,polimero,1.05,covalente,amorfa,2.0,40,43,50,,,0.21,90,105,80,3,4,2,4,3,1,2.0,3,lamina/filamento,90,3.1,3,ASTM D4673,MatWeb
+PC,polimero,1.20,covalente,amorfa,2.4,65,70,110,,,0.2,65,155,120,4,4,1,4,2,1,3.0,3,lamina/tubo,110,4.0,4,ASTM D3935,MatWeb
+Nylon 6/6,polimero,1.14,covalente,semicristalina,2.8,55,83,60,,,0.25,80,255,120,3,4,2,4,2,1,3.0,3,lamina/filamento,150,6.5,3,ASTM D4066,MatWeb
+PTFE,polimero,2.16,covalente,semicristalina,0.5,13,27,250,,,0.25,135,327,250,5,4,1,4,2,1,8.0,2,barra/lamina,105,4.0,2,ASTM D4894,MatWeb
+PRFV,compuesto,1.60,covalente,matriz_termoestable,15,,250,2.5,,,0.3,25,,120,4,3,1,4,3,1,4.5,2,lamina/perfil,110,5.0,1,ASTM D2583,MatWeb
+CFRP,compuesto,1.55,covalente,matriz_termoestable,135,,1500,1.5,,,5,1,,150,5,2,1,4,3,1,25.0,1,lamina/tejido/prepreg,280,20.0,1,ASTM D3039,MatWeb
+WPC,compuesto,1.10,covalente,matriz_termoplastica,2.5,20,25,3,,,0.3,40,130,70,4,4,2,4,2,1,2.0,2,perfil/lamina,60,1.5,2,ASTM D7032,MatWeb
+Kevlar 49,compuesto,1.44,covalente,amorfa_orientada,131,,3600,2.8,,,0.04,-2,550,250,4,2,1,3,2,1,30.0,1,fibra/tejido,200,8.0,1,ASTM D885,NIST
+Madera de pino,natural,0.42,covalente,fibra_orientada,9,35,45,5,,,0.12,5,,100,2,5,1,3,1,1,0.8,3,tabla/tablon,10,0.5,3,ASTM D2555,Callister apéndice
+Madera de roble,natural,0.68,covalente,fibra_orientada,11,50,65,4,,,0.16,5,,100,1,4,1,2,1,1,2.5,2,tabla/tablon,12,0.6,3,ASTM D2555,Callister apéndice
+Bambú,natural,0.70,covalente,fibra_orientada,15,60,100,8,,,0.15,5,,100,2,4,1,3,1,1,0.5,2,caña/tablon,8,0.4,3,ISO 22157,NIST
+Cuero,natural,0.86,covalente,amorfa_fibra,0.1,10,25,40,,,0.1,50,,80,4,2,1,4,1,1,5.0,1,lamina,20,1.0,1,ASTM D2813,Callister apéndice
+Caucho natural,elastomero,0.92,covalente,amorfa_entrecruzada,0.002,,25,700,,,0.15,67,-70,80,4,2,3,5,2,1,2.0,2,lamina/extrusion,90,2.0,2,ASTM D3184,MatWeb
+EPDM,elastomero,0.86,covalente,amorfa_entrecruzada,0.002,,20,600,,,0.2,80,-40,150,5,2,3,5,2,1,3.0,2,lamina/perfil,100,2.2,2,ASTM D4768,MatWeb
+Silicona,elastomero,1.15,covalente,amorfa_entrecruzada,0.001,,10,400,,,0.2,200,-45,250,5,2,1,5,2,1,6.0,2,lamina/extrusion,120,2.5,2,ASTM D1418,MatWeb
